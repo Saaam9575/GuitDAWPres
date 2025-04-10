@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/assets/(.*)", "dest": "/assets/$1" },
+    { "src": "/(.*).(js|css|ico|jpg|jpeg|png|gif|webp|svg|woff|woff2|ttf|eot)", "dest": "/$1.$2" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ],
+  "buildCommand": "npm run vercel-build",
+  "outputDirectory": "guitare-daw-app/dist/guitare-daw-app/browser"
+} 

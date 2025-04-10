@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Angular
+*.angular
+/guitare-daw-app/.angular
+/guitare-daw-app/node_modules
+/guitare-daw-app/dist
